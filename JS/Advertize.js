@@ -22,7 +22,7 @@ const sitecount = sites.length;
 const one = 1;
 var freecount = getRandomInt(sitecount);
 
-createwindow(sites[])
+createwindow(sites[freecount])
 
 }
 
