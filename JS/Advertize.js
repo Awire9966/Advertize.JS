@@ -1,14 +1,30 @@
-//Put the sites you have to advertise here.
-const sites = ["", "", ""];
-//Do not touch unless you know what your doing!
+//This is for static advertising only.
+
+var waitt;
+
+function setwait(waittime)
+{
+   waitt = waittime
+}
+
+function start(sites)
+{
+   setTimeout(function(){
+    advertise(sites);
+}, waitt);
+}
+
+
+function advertise(sites){
+   
+var sit = sites;
 const sitecount = sites.length;
 const one = 1;
-var int = getRandomInt(20)
+var freecount = getRandomInt(sitecount);
 
+createwindow(sites[])
 
-
-
-
+}
 
 function createwindow(url)
 {
